@@ -1,4 +1,7 @@
 name = "one-ip"
+account_id = "605dbbbd59d53025f7fac0db422d3e03"
+workers_dev = false
+routes = [{ pattern = "ip.leow.top", custom_domain = true }]
 main = "public/worker/index.js"
 compatibility_date = "2026-09-09"
 compatibility_flags = ["nodejs_compat"]
